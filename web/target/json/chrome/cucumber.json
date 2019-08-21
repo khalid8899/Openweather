@@ -1,0 +1,68 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4882308475,
+              "status": "passed"
+            },
+            "match": {
+              "location": "copystepdefinition6.setDriver()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "validate the response through OpenWeather API",
+        "description": "",
+        "id": "ability-to-create-a-new-record-producer-and-verify-assess-state;validate-the-response-through-openweather-api",
+        "after": [
+          {
+            "result": {
+              "duration": 2386102203,
+              "status": "passed"
+            },
+            "match": {
+              "location": "copystepdefinition6.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3391469617,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Connect to WeatherAPI",
+            "match": {
+              "location": "copystepdefinition6.connectWeatherAPI()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@TC_004"
+          }
+        ]
+      }
+    ],
+    "name": "Ability to create a new record producer and verify assess state",
+    "description": "Sign off - (Pending)",
+    "id": "ability-to-create-a-new-record-producer-and-verify-assess-state",
+    "keyword": "Feature",
+    "uri": "facebook.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smokeTest"
+      }
+    ]
+  }
+]
